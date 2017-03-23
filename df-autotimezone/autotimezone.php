@@ -27,6 +27,19 @@ class AutoTimeZone {
 
 	}
 
+	public function admin_menu() {
+
+		$hook = add_management_page( 'Auto Timezone Configuration', 'Auto Timezone', 'install_plugins', 'dfatz', array( $this, 'admin_page' ), '' );
+		add_action( "load-$hook", array( $this, 'admin_page_load' ) );
+
+	}
+
+	public function admin_page() {
+
+		return;
+
+	}
+
 	public function wporg_init() {
 
 		wp_enqueue_script( 'script', plugin_dir_url( __FILE__ ) . '/autotimezone.js', array ( 'jquery' ), 1.1, true);
