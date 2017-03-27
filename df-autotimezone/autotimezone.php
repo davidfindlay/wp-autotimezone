@@ -1,9 +1,9 @@
 <?php
 
 /*
-Plugin Name: Autotimezone
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
-Description: A brief description of the Plugin.
+Plugin Name: Auto Timezone
+Plugin URI: http://www.davidfindlay.com.au
+Description: This plugin allows you to use a shortcode to display a date and time in the timezone of the visitor.
 Version: 0.1
 Author: David Findlay
 Author URI: http://www.davidfindlay.com.au
